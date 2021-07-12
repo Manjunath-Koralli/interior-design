@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  min-height: 101%;
+  overflow-y: scroll !important;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* min-height: 101%; 
+  overflow-y: scroll !important; */
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  /* border-radius: 4px; */
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+/* .page-container {
+  height: 700px;
+  overflow-y: scroll;
+  
+} */
+
+@import "node_modules/bootstrap/dist/css/bootstrap.css";

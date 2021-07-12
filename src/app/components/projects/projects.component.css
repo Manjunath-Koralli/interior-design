@@ -1,0 +1,298 @@
+.projects-top-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../../assets/images/victor-hughes-i-kp9etCTzA-unsplash.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;    
+    line-height: 2;
+    letter-spacing: 2px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.projects-top-image > p {
+    font-size: 20px;
+    color: red;
+    margin-top: 200px;
+}
+
+.projects-top-image > h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.projects-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects-gallery-1 {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    margin-left: 50px;
+}
+
+.projects-gallery-2 {
+    margin-right: 50px;
+    border-right: 1px solid gray;
+    /* border-left: 1px solid gray; */
+}
+
+.projects-gallery-1,
+.projects-gallery-2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 100px;    
+}
+
+.profile {
+    margin-top: 30px;
+}
+
+.profile .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.profile .card-image{
+    transition: all 0.3s ease-out;
+}
+
+.social-icons {  
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.profile:hover .content-overlay{
+    opacity: 1;
+}
+
+/* .profile:hover .card-image {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+	z-index: 9;
+} */
+
+.fadeIn-bottom{
+    top: 80%;
+}
+
+.profile:hover .social-icons {
+    /* opacity: 1;
+    transform: translateY(-60px); */
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.footer-1 {
+    background-color: #27282c;
+    padding-bottom: 100px;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.footer1-cards {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    /* padding-bottom: 200px; */
+}
+
+.footer1-cards .card-header > h2 {
+    color: white;
+}
+
+.footer1-cards .card {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #27282c;
+    margin-top: 80px;    
+}
+
+.footer1-cards .card-header {
+    border: 0px;
+}
+
+.use-links {
+    color: gray;
+    display: flex;
+    justify-content: space-between
+}
+
+.first-link-part {
+    padding: 10px;
+    padding-right: 30px;
+}
+.second-link-part {
+    /* border-left: 1px solid gray; */
+    margin-left: 10px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.contacts-cards-p {
+    color: gray;
+}
+
+.contacts-cards-p > input {
+    height: 60px;
+    width: 425px;
+}
+.contacts-cards-p > button {
+    border-radius: 0px;
+}
+
+.footer-2 {
+    background-color:#1f1f23;
+    padding-bottom: 100px;   
+    line-height: 2;
+    letter-spacing: 2px;
+    /* margin-bottom: 10px;  */
+    /* margin: 10px; */
+}
+
+.footer2-cards {      
+    border: 0px;
+    border-radius: 0px;   
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;  
+    padding-bottom: 0px;
+}
+
+.single-card {
+    border: 0px;
+    border-radius: 0px;
+    margin-top: -150px;
+}
+
+.footer2-cards .card .card-body {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.each-card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.each-card-body-div {
+    margin: 10px;
+}
+
+
+@media (max-width: 800px) { 
+
+    .projects-top-image {
+        line-height: 2;
+        letter-spacing: 3px;
+    }
+
+    .projects-top-image > p {
+        font-size: 10px;
+    }
+    
+    .projects-top-image > h1 {
+        font-size: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+
+    .projects-gallery {
+        flex-direction: column;
+    }
+
+    .projects-gallery-1,
+    .projects-gallery-2 {
+        /* display: flex;
+        flex-direction: column; */
+        /* justify-content: space-between; */
+        padding: 30px;    
+    }
+
+    .projects-gallery-1 {
+        border-right: 0px solid gray;
+        border-left: 0px solid gray;
+        margin-left: 0px;
+    }
+    
+    .projects-gallery-2 {
+        margin-right: 00px;
+        border-right: 0px solid gray;
+    }
+
+    .profile {
+        margin-top: 20px;
+    }
+
+    .footer1-cards {
+        flex-direction: column;
+    }
+
+    .contacts-cards-p > input {
+        height: 60px;
+        width: 290px;
+    }
+
+    .use-links {
+        flex-direction: column;
+    }
+
+    .second-link-part {
+        margin-left: 0px;
+    }
+
+    .footer2-cards {         
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;  
+        padding-bottom: 0px;
+    }
+
+    .footer2-cards .card .card-body {
+        flex-direction: column;
+    }
+    .single-card {
+        margin-top: 0px;
+    }
+
+    .form-section {
+        padding: 40px;
+    }
+
+}

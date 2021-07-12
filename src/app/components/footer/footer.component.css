@@ -1,0 +1,148 @@
+.footer-card {
+  background-color: #000000;
+  opacity: 0.8;
+  border-radius: 0 !important;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+hr {
+  background-color: grey;
+}
+
+.services > hr {
+  width: 300px;
+}
+
+.usefull-links > hr {
+  width: 400px;
+}
+
+.brochure > hr {
+  width: 300px;
+}
+
+.address-contact,
+.services,
+.usefull-links,
+.brochure {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.address > p,
+.phone > p,
+.email > p {
+  color: gray;
+}
+
+.services {
+  align-items: center;
+}
+.address {
+  margin-top: 20px;
+}
+
+.service-links {
+  margin-top: 50px;
+  color: grey;
+}
+
+.copyright-card {
+  border-radius: 0px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links > p {
+  font-weight: bold;
+}
+
+.icons {
+  margin-top: -15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single-icon {
+  margin: 10px;
+}
+
+.use-links {
+  display: flex;
+  margin-top: 50px;
+}
+
+.first-link-part {
+  border-right: 1px solid;
+  margin-left: -100px;
+  margin-right: 10px;
+  padding-right: 70px;
+}
+
+.each-link > hr {
+  width : 200px
+}
+
+.each-link > h3 {
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .footer-card {
+    flex-direction: column;
+  }
+
+  .address-contact {
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+
+  .services,
+  .usefull-links,
+  .brochure {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+
+  .copyright-card {
+    flex-direction: column;
+  }
+
+  .use-links {
+    flex-direction: column;
+  }
+
+  .first-link-part {
+    border: none !important;    
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .usefull-links > hr {
+    width: 300px;
+  }
+
+  .each-link > hr {
+    margin-left: -5px;
+    width : 200px
+  }
+
+}
