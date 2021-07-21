@@ -1,6 +1,6 @@
-.mat-body p, .mat-body-1 p, .mat-typography p {
+/* .mat-body p, .mat-body-1 p, .mat-typography p {
   margin: 0px 0 2px !important;
-}
+} */
 
 .media {
   height: 25px;
@@ -46,6 +46,7 @@ h3 {
 }
 
 .media-info-p1 {
+  margin: 0 0 1px;
   font-weight: 500;
   letter-spacing: 2px;
 }
