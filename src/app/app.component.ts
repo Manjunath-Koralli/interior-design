@@ -1,5 +1,5 @@
 import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
-// import * as AOS from 'aos';
+
 
 @Component({
   selector: 'app-root',
@@ -17,8 +17,13 @@ export class AppComponent implements OnInit {
 
   sticky: boolean = false;
   elementPosition: any;
+
+  constructor() {
+    
+  }
+
   ngOnInit(): void {
-    // AOS.init();
+    
   }
 
   

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faGlobe, faMapMarkedAlt, faPhoneVolume, faEnvelope, faClipboardList, faCity, faIgloo} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import * as AOS from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -23,7 +22,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    AOS.init();
+    
   }
 
 }
