@@ -1,7 +1,8 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
 import { faGlobe, faMapMarkedAlt, faPhoneVolume, faEnvelope, faClipboardList, faCity, faIgloo} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { transition } from '@angular/animations';
+
+import { faGlobeAsia, faHeadphonesAlt, faEnvelopeOpenText} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -19,6 +20,9 @@ export class HomeComponent implements OnInit {
   faClipboardList = faClipboardList;
   faCity = faCity;
   faIgloo = faIgloo;
+  faGlobeAsia = faGlobeAsia;
+  faHeadphonesAlt = faHeadphonesAlt;
+  faEnvelopeOpenText = faEnvelopeOpenText;
 
   constructor(private el: ElementRef) { 
       
