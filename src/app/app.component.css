@@ -27,6 +27,11 @@ span {
 .navbar {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.26);
   /* height: 80px; */
+  padding: 0;
+}
+
+.collapse {
+  padding: 10px;
 }
 
 /* .sticky {
@@ -45,6 +50,10 @@ span {
 /* .second-logo {
   margin-left: -20px;
 } */
+
+.btn {
+  background-color: darkorange;
+}
 
 @media (max-width: 800px) {
   /* .navbar {
