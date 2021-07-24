@@ -11,9 +11,12 @@ export class ContactComponent implements OnInit {
   faGlobeAsia = faGlobeAsia;
   faHeadphonesAlt = faHeadphonesAlt;
   faEnvelopeOpenText = faEnvelopeOpenText;
-  constructor() { }
+  constructor( ) { }
 
   ngOnInit(): void {
   }
 
+  goToServices() {
+
+  }
 }

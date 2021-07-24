@@ -74,19 +74,16 @@ span {
     height: 100px;
   } */
 
-  .navbar-brand > img {
+  /* .navbar-brand > img {
     width: 80px;
     height: 80px;
-  }
+  } */
 
   /* .navigation-bar {
     margin-left: 40px;
     margin-right: 40px;
   } */
 
-  .second-logo {
-    margin-left: -10px;
-  }
   
   .navig-btn {
     display: none;

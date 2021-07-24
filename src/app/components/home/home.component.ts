@@ -30,12 +30,12 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
 
-    setTimeout(() => {
-      let paraBox = this.el.nativeElement.querySelector('.first-c-caption');
-      // paraBox.style.transform.translateY(-50%);
-      // transform: translateY(-50%);
-      paraBox.style.display = 'block'
-    },2000)
+    // setTimeout(() => {
+    //   let paraBox = this.el.nativeElement.querySelector('.first-c-caption');
+    //   // paraBox.style.transform.translateY(-50%);
+    //   // transform: translateY(-50%);
+    //   paraBox.style.display = 'block'
+    // },2000)
       
   }
 

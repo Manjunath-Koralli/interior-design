@@ -28,8 +28,8 @@ export class AppComponent implements OnInit {
 
   
   ngAfterViewInit(){
-    this.elementPosition = this.menuElement.nativeElement.offsetTop;
-    console.log(this.elementPosition)
+    // this.elementPosition = this.menuElement.nativeElement.offsetTop;
+    // console.log(this.elementPosition)
   }
 
   @HostListener('window:scroll', ['$event'])
